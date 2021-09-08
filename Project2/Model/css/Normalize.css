@@ -1,0 +1,64 @@
+
+/* Normalize
+   ========================================================================== 
+*/
+
+   *{
+    margin: 5px;
+    padding:0;
+    font-family:Arial, sans serif;
+  }
+  
+  .wrap
+  {
+      width: 800px;
+      margin: auto;
+  }
+  
+  .flex{
+      display: flex;
+  }
+  
+  html {
+    line-height: 1.15; /* 1 */
+  }
+  
+  body {
+    margin: 5px;
+  }
+  
+  main {
+    display: block;
+  }
+  
+  ul{
+      list-style: none;
+  }
+  
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  a {
+    background-color:none;
+  }
+  
+  b{
+    font-weight: none;
+  }
+  
+  strong {
+    font-weight: bolder;
+  }
+  
+  img {
+    border-style: none;
+  }
+
+  ol {
+      list-style: none;
+  }
+  
+  
