@@ -5,19 +5,20 @@
         <title>reservia</title>
         <link rel="stylesheet" href="Model/css/reservia.css">
         <link rel="stylesheet" href="Model/css/Normalize.css">
+        <script src="https://kit.fontawesome.com/c6120faab6.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <!-- -- Header -- -->
         <header class="header flex">
-            <p>
+            <div class="boxLogo">
                 <img class="logo" src="Model/img/logo/Reservia@3x.png" alt="logo">
-            </p>
-            <nav class>
-                <ul class="flex">
-                    <li><a href="#hebergements">Hébergements</a></li>
-                    <li><a href="#activites">Activités</a></li>
-                    <li><a href="">S'inscrire</a></li>
+            </div>
+            <nav>
+                <ul class="menu flex">
+                    <li class="hookStyle"><a class="link" href="#hebergements">Hébergements</a></li>
+                    <li class="hookStyle"><a class="link" href="#activites">Activités</a></li>
+                    <li><a class="inscription" href="">S'inscrire</a></li>
                 </ul>
             </nav>  
         </header>
@@ -26,14 +27,26 @@
 
             <!-- --- section recherche --- -->
             <section>
-                <div>
-                    
-                </div>
+                <div class="titres">
+                    <H1>Trouver votre hébergement pour des vacances de rêve</H1>
+                    <H2>En plein centre ville ou en pleine nature</H2>
+                </div>    
+             <form method="POST" action="traitementPhp" class="barreRecherche flex">
+                 <span class="locationIconBox"><i class="fas fa-map-marker-alt locationIcon"></i> </span>
+                 <input type="search" name="ville" class="ville" placeholder="Marseille, France">
+                 <button class="bouttonRechercher">
+                     <span class="texteBoutton">Rechercher</span>
+                 </button>
+              </form>
+
+
+
             </section>
 
             <!-- -- section hébergements-- -->
             
             <section>
+                
 
             </section>
 

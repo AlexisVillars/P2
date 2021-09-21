@@ -1,33 +1,135 @@
-/* Classes réutilisables* /
-
-
-
-
+/* Classes réutilisables*/
+.hookStyle :hover{
+    color: #0065FC;
+    border-top: 2.7px #0065FC solid;
+    padding-top: 45px;
+}
+.link{
+    color: rgb(41, 41, 41);
+    font-weight:500;
+    text-decoration: none; 
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 /* Fin classes réutilisables */
 
+/* police */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Header */
 .header{
     justify-content: space-between;
+    width: 1580px;
+    margin:auto
 }
-
+.boxLogo{
+    width: 665px;
+}
 .logo{
-    width: 45%;
-    height: 80%;
+    width: 125px;
+    height: 60px;
+    margin-top: 20px;
 }
 
+.menu{
+    width: 500px;
+    height: 100%;
+    font-size: 1.1em;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.inscription{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #0065FC;
+}
 
+nav{
+    width: 520px;
+   
+}
 /* Fin Header */
 
 
+
 /* Section recherche */
+.titres{
+     width: 1580px;
+     margin: auto;
+     text-align: left;
+     padding-top: 50px;
+ }
+
+ H2{
+     font-weight: 500;
+     font-size: 1.2em;
+ }
+.barreRecherche{
+    width: 1580px;
+    margin: auto;
+    height: 60px;
+    
+ }
+
+ .locationIconBox{
+     background-color:  #F2F2F2;
+     width: 60px;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
+     text-align: center;
+
+  }
+  
+  .locationIcon{
+     font-size: 1.2em; 
+     font-weight: 900;
+     padding-top: 10px;
+     padding-left: 5px;
+      
+  }
+
+  .ville{
+      font-size: 1.2em;
+      font-weight: bold;
+      width: 250px;
+      border-top: 1px solid #F2F2F2 ;
+      border-bottom: 1px solid #F2F2F2;
+      border-left: none;
+      border-right: none;
+      outline: none;
+      padding-left: 20px;
+  }
+
+ .bouttonRechercher{
+     font-size: 1.2em;
+     width: 150px;
+     border: none;
+     background-color:#0065FC;
+     border-top-right-radius: 16px;
+     border-bottom-right-radius: 16px;
+     cursor: pointer;
+ }
+
+ .texteBoutton{
+     color: white;
+     font-weight: 900;
+     text-align: center;
+ }
+    
+
 
 /* Fin section recherche */
+
+
 
 /* Section hébergements */
 
 /* Fin section hébergements */
+
+
+
 
 /* Section activités */
 
