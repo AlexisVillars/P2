@@ -17,6 +17,13 @@
 /* police */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* body */
+section{
+    width: 1580px;
+    margin: auto;
+}
+
+
 /* Header */
 .header{
     justify-content: space-between;
@@ -55,27 +62,27 @@ nav{
 
 
 /* Section recherche */
-.titres{
-     width: 1580px;
-     margin: auto;
-     text-align: left;
-     padding-top: 50px;
+H1{
+     margin-top: 40px;
+     margin-bottom: 10px;
  }
 
  H2{
      font-weight: 500;
-     font-size: 1.2em;
+     font-size: 1.15em;
+     
  }
 .barreRecherche{
     width: 1580px;
     margin: auto;
+    margin-top: 15px;
     height: 60px;
     
  }
 
  .locationIconBox{
      background-color:  #F2F2F2;
-     width: 60px;
+     width: 65px;
      border-top-left-radius: 16px;
      border-bottom-left-radius: 16px;
      text-align: center;
@@ -93,7 +100,7 @@ nav{
   .ville{
       font-size: 1.2em;
       font-weight: bold;
-      width: 250px;
+      width: 270px;
       border-top: 1px solid #F2F2F2 ;
       border-bottom: 1px solid #F2F2F2;
       border-left: none;
@@ -118,6 +125,75 @@ nav{
      text-align: center;
  }
     
+.filtres{
+     
+     height: 100px;
+     width: 1580px;
+     margin: auto;
+     margin-top: 20px;
+     font-weight: bold;
+     font-size: 1.2em;
+     align-items:center;
+     
+     
+}
+
+.filterStyle{
+    width: 1100px;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.filterStyle li{
+    height: 50px;
+    align-items: center;
+    display: flex;
+    border: 3px solid #F2F2F2;
+    border-radius: 50px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    border-left: none;
+    cursor: pointer;
+    
+}
+.filterStyle  :hover{
+    background-color:#DEEBFF;
+    transition:0.3s;
+}
+
+
+.filterStyle i{
+    display: flex;
+    margin-right: 30px;
+    border: 0px solid #F2F2F2;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color:#DEEBFF;
+    border-radius: 50px;
+    font-size: 1.3em;
+    color: #0065FC;
+    
+}
+
+.info{
+    font-size: 1.2em;
+}
+
+.info i{
+    height: 25px;
+    width: 25px;
+    font-size: 0.7em;
+    margin-right: 25px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 5px;
+    padding-inline: 2.5px;
+    color: #0065FC;
+    
+}
 
 
 /* Fin section recherche */

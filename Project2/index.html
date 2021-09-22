@@ -27,20 +27,32 @@
 
             <!-- --- section recherche --- -->
             <section>
-                <div class="titres">
-                    <H1>Trouver votre hébergement pour des vacances de rêve</H1>
-                    <H2>En plein centre ville ou en pleine nature</H2>
-                </div>    
+                 <H1>Trouver votre hébergement pour des vacances de rêve</H1>
+                 <H2>En plein centre ville ou en pleine nature</H2>
+                 
              <form method="POST" action="traitementPhp" class="barreRecherche flex">
                  <span class="locationIconBox"><i class="fas fa-map-marker-alt locationIcon"></i> </span>
                  <input type="search" name="ville" class="ville" placeholder="Marseille, France">
                  <button class="bouttonRechercher">
                      <span class="texteBoutton">Rechercher</span>
                  </button>
-              </form>
-            
+             </form>
+              
+              <div class="filtres flex">
+                  <p>Filtres</p>
+                  <ul class="flex filterStyle">
+                      <li><i class="fas fa-money-bill-wave"></i>Économique</li>
+                      <li><i class="fas fa-child"></i>Familial</li>
+                      <li><i class="fas fa-heart"></i>Romantique</li>
+                      <li><i class="fas fa-dog"></i>Animaux autorisés</li>
+                  </ul>       
+              </div>
 
+              <p class="info">
+                <i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville
+              </p>
 
+              
 
             </section>
 
