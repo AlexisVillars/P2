@@ -524,3 +524,24 @@ H1{
 }
 
 /* Fin section activités */
+
+/* footer */
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #F2F2F2;
+}
+
+.footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.divFooter{
+    width: 33%;
+}
+
+h5{
+    font-size: 1.2em;
+}
