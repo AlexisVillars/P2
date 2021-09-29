@@ -237,7 +237,7 @@ H1{
 
 /* Section hébergements */
 #hosting{
-    height: 620px;
+    height: 700px;
     margin: auto;
     justify-content: space-between;
 }
@@ -250,7 +250,7 @@ H1{
     border-radius: 30px;
 }
 
-H3{
+#hosting H3{
     font-size: 1.5em;
     margin-top: 40px;
     margin-left: 40px;
@@ -274,7 +274,6 @@ H3{
 }
 
 .hostingMarseille article{
-    position: relative;
     flex-direction: column;
     width: 100%;
 }
@@ -289,7 +288,7 @@ H3{
     margin-top: 5px;
 }
 
-H4{
+#hosting H4{
     text-align: left;
     color: black;
     width: 88%;
@@ -398,12 +397,130 @@ H4{
     margin: auto;
 }
 
-
 /* Fin section hébergements */
 
-
-
-
 /* Section activités */
+#activities{
+    height: 620px;
+    width: 80%;
+}
+
+#activities H3{
+    font-size: 1.5em;
+    margin-top: 80px;
+}
+
+
+.activityCards{
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.linkLargecard{
+    display: block;
+    height: 480px;
+    width: 20%;
+    border: transparent hidden 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(224, 224, 224);
+}
+
+.largeImg{
+    width: 100%;
+    height: 420px;
+    object-fit :cover;
+    border-radius: 14px 14px 0px 0px;
+    margin-top: -5px;
+     
+}
+
+#activities h4{
+    color: black;
+    margin-top: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.littleCards{
+    width: 20%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.linkFort{
+    display: block;
+    height: 235px;
+    width: 100%;
+    border: transparent hidden 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(224, 224, 224);
+}
+
+.pomeguesImg{
+    width: 100%;
+    height: 170px;
+    object-fit :cover;
+    border-radius: 14px 14px 0px 0px;
+    margin-top: -5px;
+}
+
+.linkFrioul{
+    display: block;
+    height: 180px;
+    width: 100%;
+    border: transparent hidden 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(224, 224, 224);
+}
+
+.frioulImg{
+    width: 100%;
+    height: 120px;
+    object-fit :cover;
+    border-radius: 14px 14px 0px 0px;
+    margin-top: -5px;
+
+}
+
+.linkNotredame{
+    display: block;
+    height: 190px;
+    width: 100%;
+    border: transparent hidden 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(224, 224, 224);
+}
+
+.notredameImg{
+    width: 100%;
+    height: 130px;
+    object-fit :cover;
+    border-radius: 14px 14px 0px 0px;
+    margin-top: -5px;
+}
+
+.linkParc{
+    display: block;
+    height: 230px;
+    width: 100%;
+    border: transparent hidden 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(224, 224, 224);
+}
+
+.parcImg{
+    width: 100%;
+    height: 170px;
+    object-fit :cover;
+    border-radius: 14px 14px 0px 0px;
+    margin-top: -5px;
+
+}
 
 /* Fin section activités */
