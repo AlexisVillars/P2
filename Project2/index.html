@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>reservia</title>
         <link rel="stylesheet" href="Model/css/reservia.css">
         <link rel="stylesheet" href="Model/css/Normalize.css">
@@ -35,12 +37,10 @@
                  <H1>Trouvez votre hébergement pour des vacances de rêve</H1>
                  <H2>En plein centre ville ou en pleine nature</H2>
                  
-                <form method="POST" action="phpProcessing" class="flex">
-                    <span class="locationIconBox"><i class="fas fa-map-marker-alt locationIcon"></i> </span>
+                <form method="POST" action="#" class="flex">
+                    <span class="locationIconBox"><i class="fas fa-map-marker-alt locationIcon"></i></span>
                     <input type="search" name=ville placeholder="Marseille, France">
-                    <button>
-                        <span>Rechercher</span>
-                    </button>
+                    <button>Rechercher</button>
                 </form>
                 
                 <div class="filters flex">
@@ -149,15 +149,21 @@
                             </article>
                         </a>                      
                     </div>
-                    <a class="showMore" href="#">Afficher plus</a>
+                    <p class="showMore">
+                        <a href="#">Afficher plus</a>
+                    </p>
+                   
                 </div>
                 <div class="popular">   
                     <div class="flex title">
                         <h3>Les plus populaires</h3>
-                        <i class="fas fa-chart-line"></i>
+                        <a class="popularLogo" href="#">
+                            <i class="fas fa-chart-line"></i>
+                        </a>
+                        
                     </div>           
                     
-                    <div class="flex cards">
+                    <div class="flex cards articlehover">
                         <a href="#">
                             <article class="flex">
                                 <img src="model/img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hôtel le soleil du matin">
@@ -222,7 +228,7 @@
                             <h4>Vieux port</h4>
                         </article>
                     </a>
-                    <div class="littleCards flex">
+                    <div class="littleCards flex articlehover">
                         <a class="linkFort"href="#">
                             <article>
                                 <img class="pomeguesImg" src="model/img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort de pomègues">
@@ -263,29 +269,28 @@
         <!-- -- Section footer -- -->
         <footer>
             <div class="flex footer">
-                <div class="divFooter">
+                <section>
                     <h5>A propos</h5>
                     <a href="#">
                         <p>Fonctionnement du site</p>
                         <p>Conditions générales de vente</p>
                         <p>Données de confidentialité</p> 
-                    </a>
-                    
-                </div>
-                <div class="divFooter">
+                    </a>        
+                </section>
+                <section>
                     <h5>Nos hébergements</h5>
                     <a href="#">
                         <p>Charte qualité</p>
                         <p>Soumettre votre hôtel</p>
                     </a>
-                </div>
-                <div class="divFooter">
+                </section>
+                <section>
                     <h5>Assistance</h5>
                     <a href="#">
                         <p>Centre d'aide</p>
                         <p>Nous contacter</p>
                     </a>               
-                </div>
+                </section>
             </div>
         </footer>
     </body>
