@@ -11,28 +11,21 @@
     </head>
 
     <body>
-        <!-- -- Header -- -->
-        <header class="flex">
-
-            <section class="boxLogo">
-                <img class="logo" src="Model/img/logo/Reservia@3x.png" alt="logo">
-            </section>
-
-            <section class="boxnav">
-                <nav>
-                    <ul class="flex">
-                        <li><a  href="#hosting">Hébergements</a></li>
-                        <li><a  href="#activities">Activités</a></li>
-                        <li><a class="inscription" href="">S'inscrire</a></li>
-                    </ul>
-                </nav>  
-            </section>
-
-        </header>
+        <!-- Header -->
+        <header>
+			<a href="#"><img class="logoReservia" src="Model/img/logo/Reservia@3x.png" alt="Reservia"></a>
+			<nav>
+				<ul class="menu">
+					<li><a class="active" href="#hosting">Hébergements</a></li>
+					<li><a href="#activities">Activités</a></li>
+					<li><a class="signup" href="#">S'inscrire</a></li>
+				</ul>
+			</nav>
+		</header>
 
         <main>
 
-            <!-- --- section recherche --- -->
+            <!-- section recherche -->
             <section class="search">
                  <H1>Trouvez votre hébergement pour des vacances de rêve</H1>
                  <H2>En plein centre ville ou en pleine nature</H2>
@@ -40,7 +33,8 @@
                 <form method="POST" action="#" class="flex">
                     <span class="locationIconBox"><i class="fas fa-map-marker-alt locationIcon"></i></span>
                     <input type="search" name=ville placeholder="Marseille, France">
-                    <button>Rechercher</button>
+                    <button class="largeScreenButton">Rechercher</button>
+                    <button class="phoneScreenButton"><i class="fas fa-search"></i></button>
                 </form>
                 
                 <div class="filters flex">
@@ -53,13 +47,13 @@
                     </ul>       
                 </div>
 
-                <p class="info">
+                <p class="info flex">
                     <i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville
                 </p>
             </section>
 
 
-            <!-- -- section hébergements-- -->
+            <!-- section hébergements -->
             <section id="hosting" class="flex">
                 <div class="hostingMarseille">
                     <H3>Hébergements à Marseille</H3> 
@@ -151,18 +145,15 @@
                     </div>
                     <p class="showMore">
                         <a href="#">Afficher plus</a>
-                    </p>
-                   
+                    </p>              
                 </div>
                 <div class="popular">   
                     <div class="flex title">
                         <h3>Les plus populaires</h3>
                         <a class="popularLogo" href="#">
                             <i class="fas fa-chart-line"></i>
-                        </a>
-                        
-                    </div>           
-                    
+                        </a>              
+                    </div>                               
                     <div class="flex cards articlehover">
                         <a href="#">
                             <article class="flex">
@@ -217,19 +208,19 @@
 
             </section>
 
-            <!-- -- section activités -- -->
+            <!-- section activités -->
 
             <section id="activities">
                 <H3>Activités à Marseille</H3>
                 <div class="activityCards flex">
-                    <a class="linkLargecard"href="#">
+                    <a class="linkLargecard" href="#">
                         <article>
                             <img class="largeImg" src="model/img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port">
                             <h4>Vieux port</h4>
                         </article>
                     </a>
                     <div class="littleCards flex articlehover">
-                        <a class="linkFort"href="#">
+                        <a class="linkFort" href="#">
                             <article>
                                 <img class="pomeguesImg" src="model/img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort de pomègues">
                                 <h4>Fort de Pomègues</h4>
@@ -242,14 +233,14 @@
                             </article>
                         </a>
                     </div>
-                    <a class="linkLargecard"href="#">
+                    <a class="linkLargecard" href="#">
                         <article>
-                            <img class="largeImg"src="model/img/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques">
+                            <img class="largeImg" src="model/img/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques">
                             <h4>Parc National des Calanques</h4>
                         </article>
                     </a>
                     <div class="flex littleCards">
-                        <a class="linkNotredame"href="#">
+                        <a class="linkNotredame" href="#">
                             <article>
                                 <img class="notredameImg" src="model/img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre dame de la garde">
                                 <h4>Notre-Dame-de-la-Garde</h4>
@@ -266,7 +257,7 @@
             </section>
         </main>
 
-        <!-- -- Section footer -- -->
+        <!-- Section footer -->
         <footer>
             <div class="flex footer">
                 <section>
