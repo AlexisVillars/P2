@@ -41,14 +41,10 @@
   }
   
   a {
-    background-color:none;
+    background-color:transparent;
     text-decoration: none;
   }
-  
-  b{
-    font-weight: none;
-  }
-  
+
   strong {
     font-weight: bolder;
   }

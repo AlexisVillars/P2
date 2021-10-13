@@ -8,7 +8,7 @@ header, main {
     padding: 0 2.5em;
 }
 
-/* Header Début */
+/* Header */
 header {
 	display: flex;
 	flex-flow: row nowrap;
@@ -26,7 +26,7 @@ h2 {
 	font-size: 1.5em;
 }
 
-.logoReservia{
+.reserviaLogo{
     width: 40%;
 }
 
@@ -55,7 +55,6 @@ header nav {
 	font-size: 1.2em;
 }
 
-
 .menu a.signup {
 	font-weight: bold;
     color: #0065FC;
@@ -71,11 +70,11 @@ header nav {
 	border-top: 3px #ffffff solid;
 }
 
-/* Header Fin */
+/* end Header */
 
 
 
-/* Section search */
+/* search section */
 
 H1{
      margin-top: 40px;
@@ -181,7 +180,6 @@ H1{
     transition:0.3s;
 }
 
-
 .filters ul li i{
     display: flex;
     margin-right: 30px;
@@ -196,8 +194,6 @@ H1{
     color: #0065FC;
     margin-right: 15px;   
 }
-
-
 
 .info{
     font-size: 1.2em;
@@ -216,10 +212,10 @@ H1{
     color: #0065FC; 
 }
 
-/* Fin section recherche */
+/* end search section */
 
 
-/* Section hébergements */
+/* hosting section */
 #hosting{
     height: 700px;
     margin: auto;
@@ -237,8 +233,7 @@ H1{
 
 #hosting H3{
     font-size: 1.5em;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin: 40px 0 40px 40px;
 }
 
 .hostingMarseille div {
@@ -275,7 +270,7 @@ H1{
     margin-top: 5px;
 }
 
-#hosting H4{
+#hosting .hostingMarseille div H4{
     text-align: left;
     color: black;
     width: 88%;
@@ -363,8 +358,6 @@ H1{
 .cards article{
     width: 98%;
     justify-content: flex-start;
-    
-
 }
 
 .cards img{
@@ -372,13 +365,19 @@ H1{
     height: 158px;
     object-fit :cover;
     border-radius: 14px 0px 0px 14px;
-    margin-top: auto;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin: 5px 0px 0px 5px;
 }
 
 .cardDescription{
    width: 52%;
+}
+
+.cardDescription h4{
+    text-align: left;
+    color: black;
+    width: 88%;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .cardDescription p{
@@ -391,10 +390,10 @@ H1{
     margin: auto;
 }
 
-/* Fin section hébergements */
+/* end hosting section */
 
 
-/* Section activités */
+/* activities section */
 
 #activities{
     height: 620px;
@@ -510,7 +509,7 @@ H1{
     border-radius: 14px 14px 0px 0px;
 }
 
-/* Animation Hover survol Article */
+/* hover article animation */
 #hosting div div a:hover {
     transform: scale(1.05);
     transition-duration: 0.5s;
@@ -526,9 +525,9 @@ H1{
     transition-duration: 0.5s;
 }
 
-/* Fin Animation Hover survol Article */
+/* end hover article animation */
 
-/* Fin section activités */
+/* end activities section */
 
 /* footer */
 footer{
@@ -563,6 +562,8 @@ footer a :hover{
     color: #0065FC;
 }
 
+/* end footer*/
+
 
 /* medias queries */
 
@@ -571,9 +572,11 @@ footer a :hover{
         width: 98%;
         margin: auto;
     }
+
     .search{
         width: 100%;
     }
+
     .search form{
         width: 95%;
         min-width: unset;
@@ -583,73 +586,91 @@ footer a :hover{
         flex-wrap: wrap;
         width: unset;
     }
+
     .phoneScreenButton{
         display:unset;
     }
+
     .largeScreenButton{
         display: none;
     }
+
     #hosting{
         flex-direction: column-reverse;
         width: 100%;
         height: 1500px;
         justify-content: space-between;
     }
+
     .hostingMarseille {
         height: 500px;
         margin: auto;
         width: 100%;
     }
+
     #activities h3{
         margin-top: 40px;
     }
+
     .hostingMarseille a{
         max-height: 200px;
     }
+
     .popular{
         height: 700px;
         width: 100%;
         margin: auto;
     }
+
     .cards{
         width: 95%;
     }
+
     .cards div a{
         width: 88%;
     }
+
     #activities{
         width: 100%;
     }
+
     .activityCards {
         display: flex;
         justify-content: space-between;
         height: 600px;
         align-items: baseline;
     }
+
     .linkLargecard{
         height: 255px;
         width: 28%; 
     }
+
     .littleCards{
        flex-direction: row;
        width: 65%;
        height: 255px;
        justify-content: space-between;
     }
+
     .activityCards article{
         box-sizing: border-box;
     }
+
     .linkLargecard img{
         height: 190px;
         width: 100%;
     }
+
     .activityCards div a{
         height: 255px;
         width: 45%;
     }
+
     .activityCards div a img{
         height: 190px;
-    }   
+    } 
+
     .footer{
         width: 95%;
         justify-content: space-between;
@@ -665,14 +686,16 @@ footer a :hover{
 		flex-flow: row wrap;
 		height: auto;
 	}
-    .logoReservia{
+
+    .reserviaLogo{
         width: 30%;
     }
+
     main{
         padding: unset;
     }
 
-	.logoReservia {
+	.reserviaLogo {
 		position: relative;
 		left: 2em;
 	}
@@ -728,48 +751,61 @@ footer a :hover{
 	.menu li a.signup:hover {
 		border:none;
 	}
+
     .search{
         width: 93%;
         margin: auto;
     }
+
     h1{
         margin-top: 5px;
     }
+
     .search form{
         margin: 2em 0 2em;
     }
+
     .filters ul{
         flex-wrap: wrap;
     }
+
     #hosting{
         height: 1700px;
     }
+
     .hostingMarseille{
         height: 900px;
     }
+
     .hostingMarseille div{
         height: 80%;
     }
+
     .hostingMarseille div a{
         height: 200px;
         width: 48%;
     }
+
     #activities{
         height: 1200px;
         width: 98%;
         margin: auto;
     }
+
     .activityCards{
         
         height: 1200px;
         justify-content: space-between;
     }
+
     .linkLargecard{
         width: 100%;
     }
+
     .littleCards{
         width: 100%;
     }
+
     .activityCards div a{
         width: 48%;
     }
@@ -781,15 +817,19 @@ footer a :hover{
 
 @media (max-width: 490px) {
 
+    section{
+        min-width: 350px;
+    }
 
     header {
 		padding: 0 0 2em;
 		position: relative;
 		flex-flow: row wrap;
 		height: auto;
+        min-width: 350px;
 	}
 
-	.logoReservia {
+	.reserviaLogo {
 		position: relative;
 		left: 2em;
 	}
@@ -811,11 +851,6 @@ footer a :hover{
 		width: auto;
 	}
 
-	
-    section{
-        min-width: 350px;
-    }
-    
     .filters{
         flex-direction: column;
         align-items: flex-start;
@@ -830,12 +865,15 @@ footer a :hover{
         margin:0;
         padding:0;
     }
+
     #hosting{
         height: 2200px;
     }
+
     #hosting h3{
         margin-left: 0.55em
     }
+
     .hostingMarseille{
         height: 1500px;
         background-color: white;
@@ -847,52 +885,67 @@ footer a :hover{
         justify-content: space-around;
         margin: auto;
     }
+
     .hostingMarseille div a{
         width: 93%;
         max-width: unset;
     }
+
     .hostingMarseille div a img {
         width: 97%;
     }
+
     .popular{
         border-radius: unset;
     }
+
     .info{
         margin-top: 1em;
     }
+
     .info i{
         width: 35px;
     }
+
     #activities h3{
         margin-left: 0.55em;
     }
+
     #activities{
         height: 1750px;
     }
+
     .activityCards{
         height: 1720px;
         justify-content: space-between;
     }
+
     .linkLargecard{
         width: 93%;
         margin: auto;
     }
+
     .littleCards{
         width: 100%;
         flex-direction: column;
         height: 575px;
         justify-content:space-between;
     }
+
     .activityCards div a{
         width: 93%;
         margin: auto;
     }
+
     footer{
         height: 530px;
     }
+    
     .footer {
         flex-direction: column;
         height: 520px;
         text-align: left;
     }
 }
+
+     /*end medias queries*/
