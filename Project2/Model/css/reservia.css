@@ -679,7 +679,6 @@ footer a :hover{
 
 @media (max-width: 790px) {
 
-
     header {
 		padding: 0 0 2em;
 		position: relative;
@@ -820,36 +819,6 @@ footer a :hover{
     section{
         min-width: 350px;
     }
-
-    header {
-		padding: 0 0 2em;
-		position: relative;
-		flex-flow: row wrap;
-		height: auto;
-        min-width: 350px;
-	}
-
-	.reserviaLogo {
-		position: relative;
-		left: 2em;
-	}
-
-	header nav {
-		margin: 0.5em 0 0 0;
-		width: 100%;
-	}
-
-	.menu {
-		flex-flow: unset;
-	}
-
-	.menu li {
-		width: 100%;
-	}
-	
-	.menu li:last-child {
-		width: auto;
-	}
 
     .filters{
         flex-direction: column;
